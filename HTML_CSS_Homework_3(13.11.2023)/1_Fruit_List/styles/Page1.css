@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+/*BODY*/
+body {
+    width: auto;
+    height: auto;
+    background-color: whitesmoke;
+    margin: 30px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*HEADER*/
+header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+/*FOOTER*/
+footer {
+    width: 830px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer span {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*MAIN*/
+main {
+    width: auto;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+/*Img*/
+img {
+    width: 155px;
+    height: 188px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Grid container*/
+.grid-container {
+    width: 830px;
+    height: 400px;
+
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+}
+
+/*Grid item*/
+.grid-item {
+    width: 160px;
+    height: 188px;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    width: 830px;
+}
