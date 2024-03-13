@@ -52,19 +52,11 @@ main {
     justify-content: center;
 }
 
-/*Img*/
-img {
-    width: 155px;
-    height: 188px;
-    margin: 0;
-    padding: 0;
-}
-
 
 /*Grid container*/
 .grid-container {
-    width: 830px;
-    height: 400px;
+    width: max-content;
+    height: max-content;
 
     display: grid;
     grid-template-rows: auto auto;
@@ -75,12 +67,21 @@ img {
 
 /*Grid item*/
 .grid-item {
-    width: 160px;
-    height: 188px;
+    width: max-content;
+    height: max-content;
     margin: 0;
     padding: 0;
 }
 
-hr {
-    width: 830px;
+/*Img*/
+img {
+    object-fit: cover;
+    width: 147px;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: auto;
+    height: auto;
 }
